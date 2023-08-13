@@ -1,0 +1,78 @@
+body {
+    background-color: fuchsia;
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 50%);
+    gap: 5px;
+    text-align: center;
+}
+.cajas .caja1{
+    background-color:  pink;
+}
+.cajas .caja2 {
+    background-color: yellow;
+}
+.cajas .caja3 {
+    background-color: cyan;
+}
+.cajas .caja4 {
+    background-color: chartreuse;
+}
+.cajas .caja5 {
+    background-color: springgreen;
+}
+.cajas .caja6 {
+    background-color: rgb(130, 234, 238);
+}
+.cajas .caja7 {
+    background-color: rgb(222, 238, 130);
+}
+.cajas .caja8 {
+    background-color:darkorange;
+}
+.cajas .caja9 {
+    background-color: violet;
+}
+
+@media (min-width: 321px) {
+    .cajas {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+  
+@media (min-width: 769px) {
+    .cajas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cajas .caja1 {
+        background-color: yellow;
+    }
+    .cajas .caja2 {
+        background-color: rgb(130, 234, 238);
+    }
+    .cajas .caja3 {
+        background-color: rgb(222, 238, 130);
+    }
+    .cajas .caja4 {
+        background-color: violet;
+    }
+    .cajas .caja5 {
+        background-color: pink;
+    }
+    .cajas .caja6 {
+        background-color: chartreuse;
+    }
+    .cajas .caja7 {
+        background-color: cyan;
+    }
+    .cajas .caja8 {
+        background-color: springgreen;
+    }
+    .cajas .caja9{
+        background-color: darkorange;
+    }
+}
+   
